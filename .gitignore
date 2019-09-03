@@ -1,0 +1,6 @@
+.*
+!.gitignore
+save
+venv
+*_cache*
+*cache_*
