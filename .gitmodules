@@ -1,0 +1,3 @@
+[submodule "meta_analysis"]
+	path = meta_analysis
+	url = https://github.com/alexprz/meta_analysis.git
