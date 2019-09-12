@@ -9,9 +9,12 @@ import os
 import ntpath
 from colorama import Fore, Style
 
-from globals import mem, input_path, Ni, Nj, Nk, coordinates, affine, \
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+
+from brain_mapping.globals import mem, input_path, Ni, Nj, Nk, coordinates, affine, \
     inv_affine, corpus_tfidf, gray_mask
-from meta_analysis.meta_analysis import Maps, print_percent
+from brain_mapping.meta_analysis.meta_analysis import Maps, print_percent
 
 
 @mem.cache
